@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Arr_1_Dim	dhry-dmips.h	/^typedef int 	Arr_1_Dim[50];$/;"	t
+Arr_1_Glob	dhry1.c	/^int 		Arr_1_Glob[50];$/;"	v
+Arr_2_Dim	dhry-dmips.h	/^typedef int 	Arr_2_Dim[50][50];$/;"	t
+Arr_2_Glob	dhry1.c	/^int		Arr_2_Glob[50][50];$/;"	v
+Begin_Time	dhry1.c	/^double 	Begin_Time, End_Time, User_Time;$/;"	v
+Bool_Glob	dhry1.c	/^Boolean 	Bool_Glob;$/;"	v
+Boolean	dhry-dmips.h	/^typedef int 	Boolean;$/;"	t
+CC	Makefile	/^CC=		cc			# C compiler name goes here (UNIX)$/;"	m
+CC	Makefile	/^CC=		cl			# C compiler name goes here (MSC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS=	$(OPTIMIZE) $(TIME_FUNC) -DHZ=$(HZ) $(ENUMS) $(STRUCTASSIGN) $(CFL) -fno-builtin-malloc -fno-builtin-strcpy$/;"	m
+Capital_Letter	dhry-dmips.h	/^typedef char 	Capital_Letter;$/;"	t
+Ch_1_Comp	dhry-dmips.h	/^	  char 		Ch_1_Comp;$/;"	m	struct:record::__anon2::__anon5
+Ch_1_Glob	dhry1.c	/^char 		Ch_1_Glob, Ch_2_Glob;$/;"	v
+Ch_2_Comp	dhry-dmips.h	/^	  char 		Ch_2_Comp;$/;"	m	struct:record::__anon2::__anon5
+Ch_2_Glob	dhry1.c	/^char 		Ch_1_Glob, Ch_2_Glob;$/;"	v
+Dhrystones_Per_Second	dhry1.c	/^float 	Microseconds, Dhrystones_Per_Second;$/;"	v
+Discr	dhry-dmips.h	/^    Enumeration 	Discr;$/;"	m	struct:record
+ENUMS	Makefile	/^ENUMS=					# Compiler does have enum type$/;"	m
+ENUMS	Makefile	/^ENUMS=		-DNOENUMS		# Compiler doesn't have enum type$/;"	m
+E_Comp_2	dhry-dmips.h	/^	  Enumeration 	E_Comp_2;$/;"	m	struct:record::__anon2::__anon4
+End_Time	dhry1.c	/^double 	Begin_Time, End_Time, User_Time;$/;"	v
+Enum_Comp	dhry-dmips.h	/^	  Enumeration 	Enum_Comp;$/;"	m	struct:record::__anon2::__anon3
+Enumeration	dhry-dmips.h	/^		  Enumeration;$/;"	t	typeref:enum:__anon1
+Enumeration	dhry-dmips.h	/^  typedef int Enumeration;$/;"	t
+FILES1	Makefile	/^FILES1=		README.RER clarify.doc Makefile submit.frm pure2_1.dif \\$/;"	m
+FILES2	Makefile	/^FILES2=		README RATIONALE $(HDR) $(SRC)$/;"	m
+FILES3	Makefile	/^FILES3=		dhry.p$/;"	m
+Func_1	dhry2.c	/^Enumeration Func_1(Ch_1_Par_Val, Ch_2_Par_Val)$/;"	f
+Func_2	dhry2.c	/^Boolean Func_2(Str_1_Par_Ref, Str_2_Par_Ref)$/;"	f
+Func_3	dhry2.c	/^Boolean Func_3(Enum_Par_Val)$/;"	f
+GCC	Makefile	/^GCC=		gcc$/;"	m
+GCCFLAGS	Makefile	/^GCCFLAGS= $(GCCOPTIM) $(TIME_FUNC) -DHZ=$(HZ) $(ENUMS) $(STRUCTASSIGN) $(CFL) -fno-builtin-malloc -fno-builtin-strcpy$/;"	m
+GCCOPTIM	Makefile	/^GCCOPTIM=   -O$/;"	m
+HDR	Makefile	/^HDR=		dhry-dmips.h$/;"	m
+HZ	Makefile	/^HZ=		60			# Frequency of times(2) clock ticks$/;"	m
+Ident_1	dhry-dmips.h	/^  typedef enum {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5} $/;"	e	enum:__anon1
+Ident_1	dhry-dmips.h	24;"	d
+Ident_2	dhry-dmips.h	/^  typedef enum {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5} $/;"	e	enum:__anon1
+Ident_2	dhry-dmips.h	25;"	d
+Ident_3	dhry-dmips.h	/^  typedef enum {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5} $/;"	e	enum:__anon1
+Ident_3	dhry-dmips.h	26;"	d
+Ident_4	dhry-dmips.h	/^  typedef enum {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5} $/;"	e	enum:__anon1
+Ident_4	dhry-dmips.h	27;"	d
+Ident_5	dhry-dmips.h	/^  typedef enum {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5} $/;"	e	enum:__anon1
+Ident_5	dhry-dmips.h	28;"	d
+Int_Comp	dhry-dmips.h	/^	  int 		Int_Comp;$/;"	m	struct:record::__anon2::__anon3
+Int_Glob	dhry1.c	/^int 		Int_Glob;$/;"	v
+LFLAGS	Makefile	/^LFLAGS=					#Loader Flags$/;"	m
+MSC_PROGS	Makefile	/^MSC_PROGS=	sdry2.exe sdry2reg.exe mdry2.exe mdry2reg.exe \\$/;"	m
+Mic_secs_Per_Second	dhry-dmips.h	15;"	d
+Microseconds	dhry1.c	/^float 	Microseconds, Dhrystones_Per_Second;$/;"	v
+Next_Ptr_Glob	dhry1.c	/^Rec_Pointer  	Ptr_Glob, Next_Ptr_Glob;$/;"	v
+Null	dhry-dmips.h	38;"	d
+OPTIMIZE	Makefile	/^OPTIMIZE=	-O4			# Optimization Level (generic UNIX)$/;"	m
+OPTIMIZE	Makefile	/^OPTIMIZE=	-Ox -G2			# Optimization Level (MSC, 80286)$/;"	m
+One_Fifty	dhry-dmips.h	/^typedef int 	One_Fifty;$/;"	t
+One_Thirty	dhry-dmips.h	/^typedef int 	One_Thirty;$/;"	t
+PROGS	Makefile	/^PROGS=		msc			# Programs to build (MSC)$/;"	m
+PROGS	Makefile	/^PROGS=		unix			# Programs to build (UNIX)$/;"	m
+Proc_1	dhry1.c	/^void Proc_1(Ptr_Val_Par)$/;"	f
+Proc_2	dhry1.c	/^void Proc_2(Int_Par_Ref)$/;"	f
+Proc_3	dhry1.c	/^void Proc_3(Ptr_Ref_Par)$/;"	f
+Proc_4	dhry1.c	/^void Proc_4()$/;"	f
+Proc_5	dhry1.c	/^void Proc_5()$/;"	f
+Proc_6	dhry2.c	/^void Proc_6(Enum_Val_Par, Enum_Ref_Par)$/;"	f
+Proc_7	dhry2.c	/^void Proc_7(Int_1_Par_Val, Int_2_Par_Val, Int_Par_Ref)$/;"	f
+Proc_8	dhry2.c	/^void Proc_8(Arr_1_Par_Ref, Arr_2_Par_Ref, Int_1_Par_Val, Int_2_Par_Val)$/;"	f
+Ptr_Comp	dhry-dmips.h	/^    struct record 	*Ptr_Comp;$/;"	m	struct:record	typeref:struct:record::record
+Ptr_Glob	dhry1.c	/^Rec_Pointer  	Ptr_Glob, Next_Ptr_Glob;$/;"	v
+REG	dhry-dmips.h	2;"	d
+REG	dhry1.c	16;"	d	file:
+REG	dhry2.c	3;"	d	file:
+Rec_Pointer	dhry-dmips.h	/^}Rec_Type, *Rec_Pointer;$/;"	t	typeref:struct:record
+Rec_Type	dhry-dmips.h	/^}Rec_Type, *Rec_Pointer;$/;"	t	typeref:struct:record
+Reg	dhry1.c	/^    Boolean Reg = false;$/;"	v
+Reg	dhry1.c	/^    Boolean Reg = true;$/;"	v
+SRC	Makefile	/^SRC=	dmipsapp.c	dhry1.c dhry2.c$/;"	m
+STRUCTASSIGN	Makefile	/^STRUCTASSIGN=				# Compiler can assign structs$/;"	m
+STRUCTASSIGN	Makefile	/^STRUCTASSIGN=	-DNOSTRUCTASSIGN	# Compiler cannot assign structs$/;"	m
+Str_2_Comp	dhry-dmips.h	/^	  char 		Str_2_Comp[31];$/;"	m	struct:record::__anon2::__anon4
+Str_30	dhry-dmips.h	/^typedef char 	Str_30[31];$/;"	t
+Str_Comp	dhry-dmips.h	/^	  char 		Str_Comp[31];$/;"	m	struct:record::__anon2::__anon3
+TEST_FORK_NUMBER	dhry-dmips.h	43;"	d
+TIME	dhry-dmips.h	1;"	d
+TIMES	dhry-dmips.h	7;"	d
+TIME_FUNC	Makefile	/^TIME_FUNC=	-DTIMES			# Use times(2) for measurement$/;"	m
+Too_Small_Time	dhry1.c	25;"	d	file:
+Too_Small_Time	dhry1.c	31;"	d	file:
+UNIX_PROGS	Makefile	/^UNIX_PROGS=	cc_dry2 cc_dry2reg gcc_dry2 gcc_dry2reg$/;"	m
+User_Time	dhry1.c	/^double 	Begin_Time, End_Time, User_Time;$/;"	v
+_GNU_SOURCE	dmipsapp.c	15;"	d	file:
+__USE_GNU	dmipsapp.c	32;"	d	file:
+false	dhry-dmips.h	41;"	d
+fork_pro	dhry1.c	/^float fork_pro(int n, int cpuNum)$/;"	f
+g_print	dhry-dmips.h	4;"	d
+main	dmipsapp.c	/^int main(int argc, char *argv[])$/;"	f
+memcpy	dhry1.c	/^memcpy(d, s, l)$/;"	f
+read_dmips	dhry1.c	/^float read_dmips(int pid)$/;"	f
+record	dhry-dmips.h	/^typedef struct record$/;"	s
+store_dmips	dhry1.c	/^void store_dmips(int pid, float dmipsval)$/;"	f
+structassign	dhry-dmips.h	18;"	d
+structassign	dhry-dmips.h	20;"	d
+time_info	dhry1.c	/^struct tms time_info;$/;"	v	typeref:struct:tms
+true	dhry-dmips.h	40;"	d
+var_1	dhry-dmips.h	/^      }var_1;$/;"	m	union:record::__anon2	typeref:struct:record::__anon2::__anon3
+var_2	dhry-dmips.h	/^      }var_2;$/;"	m	union:record::__anon2	typeref:struct:record::__anon2::__anon4
+var_3	dhry-dmips.h	/^      }var_3;$/;"	m	union:record::__anon2	typeref:struct:record::__anon2::__anon5
+variant	dhry-dmips.h	/^    }variant;$/;"	m	struct:record	typeref:union:record::__anon2
