@@ -35,6 +35,23 @@
 #include <sched.h>
 #include <sys/wait.h>
 
+void show_cpuinfo()
+{
+	char line[256]={0};
+	FILE *fp = NULL;
+	fp = fopen("/proc/cpuinfo","r");
+	if(!fp){
+		printf("open /proc/cpuinfo err!\n");
+		return;
+	}
+
+    while(fgets(line,sizeof(line),fp)){
+        printf("%s",line);
+    }
+	fclose(fp);
+	return;
+}
+
 int main(int argc, char *argv[])
 {
 		pid_t fpid, pr;
@@ -48,7 +65,7 @@ int main(int argc, char *argv[])
 
 
 		g_print("Dhrystone BenchMark, Version 2.1(Language:C)\n");
-
+		show_cpuinfo();
 		num = sysconf(_SC_NPROCESSORS_ONLN);
 		g_print("system has %d processor(s),I will fork %d process,then adding together dmips,get total dmips!\n", num, num);
 		g_print("DMIPSApp Running\n");
