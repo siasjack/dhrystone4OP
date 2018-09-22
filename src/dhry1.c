@@ -65,7 +65,7 @@ float fork_pro(int n, int cpuNum)
 
 		Number_Of_Runs = n * 1000000;
 		if(firetest){
-			g_print("Excution starts, firetest nerver end!!(cpuNum=%d,pid=%d)\n", Number_Of_Runs, cpuNum,(int)getpid());
+			g_print("Excution starts, firetest nerver end!!(cpuNum=%d,pid=%d)\n", cpuNum,(int)getpid());
 		}else{
 			g_print("Excution starts, %d runs through Dhrystone(cpuNum=%d,pid=%d)\n", Number_Of_Runs, cpuNum,(int)getpid());
 		}
