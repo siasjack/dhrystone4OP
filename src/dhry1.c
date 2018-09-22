@@ -64,7 +64,11 @@ float fork_pro(int n, int cpuNum)
 		Arr_2_Glob[8][7] = 10;
 
 		Number_Of_Runs = n * 1000000;
-		g_print("Excution starts, %d runs through Dhrystone(cpuNum=%d,pid=%d)\n", Number_Of_Runs, cpuNum,(int)getpid());
+		if(firetest){
+			g_print("Excution starts, firetest nerver end!!(cpuNum=%d,pid=%d)\n", Number_Of_Runs, cpuNum,(int)getpid());
+		}else{
+			g_print("Excution starts, %d runs through Dhrystone(cpuNum=%d,pid=%d)\n", Number_Of_Runs, cpuNum,(int)getpid());
+		}
 		gettimeofday(&begin_tim, &tz);
 
 		for(Run_Index = 1; Run_Index <= Number_Of_Runs; ++Run_Index)

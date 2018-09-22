@@ -70,8 +70,13 @@ int main(int argc, char *argv[])
 		g_print("Dhrystone BenchMark, Version 2.1(Language:C)\n");
 		show_cpuinfo();
 		num = sysconf(_SC_NPROCESSORS_ONLN);
-		g_print("system has %d processor(s),I will fork %d process,then adding together dmips,get total dmips!\n", num, num);
-		g_print("DMIPSApp Running\n");
+		if(firetest){
+			g_print("system has %d processor(s),I will fork %d process,then firetest nerver stop! untill ctrl+c\n", num, num);
+			g_print("DMIPSApp firetest Running\n");
+		}else{
+			g_print("system has %d processor(s),I will fork %d process,then adding together dmips,get total dmips!\n", num, num);
+			g_print("DMIPSApp Running\n");
+		}
 		g_print("=====================================================\n");
 
 		for(forkNum = 0;forkNum < (num - 1); forkNum++)
