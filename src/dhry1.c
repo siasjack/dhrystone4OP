@@ -104,6 +104,9 @@ float fork_pro(int n, int cpuNum)
 				Int_2_Loc = 7 * (Int_2_Loc - Int_3_Loc) - Int_1_Loc;
 
 				Proc_2(&Int_1_Loc);
+				if(firetest == 1){
+					Run_Index--;
+				}
 		}
 
 		gettimeofday(&end_tim, &tz);

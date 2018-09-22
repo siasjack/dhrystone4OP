@@ -70,7 +70,7 @@ typedef struct record
       }var_3;
     }variant;
 }Rec_Type, *Rec_Pointer;
-
+extern int firetest;
 extern void Proc_1();
 extern void Proc_2();
 extern void Proc_3();

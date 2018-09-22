@@ -52,6 +52,7 @@ void show_cpuinfo()
 	return;
 }
 
+int firetest = 0;
 int main(int argc, char *argv[])
 {
 		pid_t fpid, pr;
@@ -63,7 +64,9 @@ int main(int argc, char *argv[])
 		float dmipsval = 0.0f;
 		int status, returncode;
 
-
+		if(argc == 2 && strcmp(argv[1],"--firetest")==0){
+			firetest = 1;
+		}
 		g_print("Dhrystone BenchMark, Version 2.1(Language:C)\n");
 		show_cpuinfo();
 		num = sysconf(_SC_NPROCESSORS_ONLN);
