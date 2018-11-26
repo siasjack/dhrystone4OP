@@ -44,11 +44,12 @@ void show_cpuinfo()
 		printf("open /proc/cpuinfo err!\n");
 		return;
 	}
-
+printf("===================/proc/cpuinfo==============");
     while(fgets(line,sizeof(line),fp)){
         printf("%s",line);
     }
 	fclose(fp);
+	printf("===================/proc/cpuinfo end==============");
 	return;
 }
 
